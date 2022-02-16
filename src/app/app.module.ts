@@ -28,6 +28,7 @@ import { BarModule } from './demos/bar-di-zones/bar.module';
 import { BarServices } from './demos/bar-di-zones/bar.service';
 import { Provider } from '@angular/compiler/src/core';
 import { HttpClientModule } from '@angular/common/http';
+import { TodoModule } from './demos/todo-list/todo.module';
 
 export const BAR_PROVIDERS: Provider[] = [
   BarServices
@@ -60,7 +61,8 @@ export const BAR_PROVIDERS: Provider[] = [
     BarModule.forRoot({
       unidadeId: 1000,
       unidadeToken: 'sgdfgfghhghjj'
-    })
+    }),
+    TodoModule
   ],
   // providers: [
   //   {provide: APP_BASE_HREF, useValue: '/'}
