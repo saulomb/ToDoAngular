@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Task } from "../../task";
+import { Task } from '../../task';
+
 
 @Component({
   selector: 'todo-list',
