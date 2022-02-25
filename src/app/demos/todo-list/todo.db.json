@@ -3,8 +3,8 @@
     {
       "id": 1,
       "nome": "Responder e-mails",
-      "finalizado": true,
-      "iniciado": false
+      "finalizado": false,
+      "iniciado": true
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "id": 3,
       "nome": "Finalizar curso de Angular",
       "finalizado": false,
-      "iniciado": false
+      "iniciado": true
     },
     {
       "id": 4,
@@ -28,7 +28,7 @@
       "id": 5,
       "nome": "Levar cachorro no veterinário",
       "finalizado": false,
-      "iniciado": false
+      "iniciado": true
     },
     {
       "id": 6,
@@ -40,7 +40,7 @@
       "id": 7,
       "nome": "Comprar Café",
       "finalizado": false,
-      "iniciado": true
+      "iniciado": false
     },
     {
       "id": 8,

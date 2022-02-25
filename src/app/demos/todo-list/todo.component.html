@@ -1,16 +1,30 @@
 <div class="container main-container">
 
     
+    <form novalidate (ngSubmit)="adicionarTarefa()" [formGroup]="tarefaForm">
 
+        <div class="row text-left">
+            <div style="padding-left: 15px;" class="form-group">
+                <input class="form-control" style="width: 350px;" id="nome" placeholder="Nova tarefa" formControlName="nome" type="text">
+            </div>
+            <div style="padding-left: 30px;" class="form-group">
+                <button class="btn btn-success" id="Registrar" type="submit">Registrar</button>
+            </div>
+        </div>
+
+    </form>
+
+
+    <!-- <form novalidate (ngSubmit)="adicionarTarefa()" [formGroup]="tarefaForm">
     <div class="form-group">
     <div class="input-group col-md-4">
-        <input class="col-md-2" type="text" class="form-control" placeholder="Adicionar tarefa">
+        <input class="form-control" style="width: 350px;" id="nome" placeholder="Nova tarefa" formControlName="nome" type="text">
         <div class="input-group-append">
-          <button class="btn btn-success" type="button">Adicionar</button>
+          <button class="btn btn-success" id="Registrar" type="submit">Adicionar</button>
         </div>
     </div>
     </div>
-
+  </form> -->
    <!-- <div class="form-group">
     <div class="col-md-4 col-md-offset-2">
         <span><button class="btn btn-success" id="Registrar"  type="submit">Registrar</button></span>
